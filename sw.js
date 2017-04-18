@@ -1,4 +1,5 @@
 // Install the service worker.
+console.log("I serviceworker");
 this.addEventListener('install', function(event) {
 	event.waitUntil(
 		caches.open('v1').then(function(cache) {
