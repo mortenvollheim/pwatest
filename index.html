@@ -55,7 +55,7 @@
 
 if ('serviceWorker' in navigator) {
     // Path is relative to the origin, not project root.
-    navigator.serviceWorker.register('/pwa-test/sw.js')
+    navigator.serviceWorker.register('/pwatest/sw.js')
     .then(function(reg) {
         console.log('Registration succeeded. Scope is ' + reg.scope);
     })
