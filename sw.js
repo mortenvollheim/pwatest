@@ -5,14 +5,14 @@ this.addEventListener('install', function(event) {
 			// The cache will fail if any of these resources can't be saved.
 			return cache.addAll([
 				// Path is relative to the origin, not the app directory.
-				'/pwatest/',
-				'/pwatest/index.html',
-				'/pwatest/css/styles.css',
-				'/pwatest/fonts/MaterialIcons-Regular.woff2',
-				'/pwatest/js/script.js',
-				'/pwatest/icons/ic-face.png',
-				'/pwatest/icons/ic-face-large.png',
-				'/pwatest/manifest.json'
+				'/',
+				'index.html',
+				'css/styles.css',
+				'fonts/MaterialIcons-Regular.woff2',
+				'js/script.js',
+				'icons/ic-face.png',
+				'icons/ic-face-large.png',
+				'manifest.json'
 			])
 			.then(function() {
 				console.log('Success! App is available offline!');
